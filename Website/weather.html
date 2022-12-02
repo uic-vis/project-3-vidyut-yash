@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="weatherData.js"></script>
+    <script src="weather.js"></script>
+    
+    <style>
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        h3 {text-align: center;}
+        h4 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        button {text-align: center;}
+        .parent {
+            margin: 1rem;
+            padding: 1rem 1rem;
+            text-align: center;
+        }
+        .child {
+            display: inline-block;
+            padding: 1rem 1rem;
+            vertical-align: middle;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Chicago Crashes by Seasons</h1>
+    <h3><a href="index.html">Home Page</a></h3>
+    <h2><strong>Question 3:</strong> How does seasons and consequent weather conditions affect the frequency of Traffic Crashes?</h2>
+
+    <div class='parent'>
+        <div class='child'><button onclick="update(data1, ata1)">Summer</button></div>
+        <div class='child'><button onclick="update(data2, ata2)">Fall</button></div>
+        <div class='child'><button onclick="update(data3, ata3)">Winter</button></div>
+        <div class='child'><button onclick="update(data4, ata4)">Spring</button></div>
+    </div>
+
+    <div class='parent'>
+        <div class='child'><div id="my_dataviz"></div></div>
+        <div class='child'><div id="my_dataviz1"></div></div>
+    </div>      
+
+    <h2><strong>Finding:</strong> Most crashes occur during the summer months while the clear weather conditions having seemingly minimal effect. However, during winter months it is evident that there are more crashes that occur due to harsh conditions.</h2>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+    <script src="p3.js"></script>
+    <script src="map.js"></script>
+
+    <style>
+        #map {
+                clear: left;
+                width: 600px;
+                height: 750px;
+            }
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        h3 {text-align: center;}
+        h4 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+
+        .parent {
+            margin: 1rem;
+            padding: 0.5rem 0.5rem;
+            text-align: center;
+        }
+        .child {
+            display: inline-block;
+            padding: 0.5rem 0.5rem;
+            vertical-align: middle;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Chicago Crashes Map</h1>
+    <h3><a href="index.html">Home Page</a></h3>
+    <h2><strong>Question 4:</strong> Which Chicago neighborhood has the highest crash density?</h2>
+    <div class='parent'>
+        <div class='child'><div id="map"></div></div>
+    </div>
+    <h2><strong>Finding:</strong> Traffic crashes are concentrated the most near Near North Side moving through the West Side of Chicago.</h2>
+</body>
+
+</html>
