@@ -76,3 +76,6 @@ For this visualization, we merged our original dataset with Chicago Boundaries d
 
 #### Findings: 
 Traffic crashes are concentrated the most near Near North Side moving through the West Side of Chicago, going past Humboldt park. This could largely be due to the large population density in a smaller land area when compared to the suburbs of Chicago. Hence why we can see that there is an accumulation of higher crash frequencies in the South Side of Chicago as well.
+
+#### Findings for the domain question:
+Male identifying drivers between the age 25 and 30 who drive a passenger vehicle are most likely to get into a vehicular crash. There is no anomaly for finding depending on specific weather conditions throughout the year, but summer seems to have an effect on the chances of getting into a crash most likely due to the large number of people on the road.
